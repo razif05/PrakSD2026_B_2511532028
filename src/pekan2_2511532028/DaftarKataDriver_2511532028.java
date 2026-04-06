@@ -23,7 +23,7 @@ public class DaftarKataDriver_2511532028 {
 		// Menghapus elemen (hapus index 0)
 		String terhapus = al.hapusElemen_2511532028(0);
 		System.out.println("Terhapus		: " + terhapus);
-		System.out.println("Setelah hapus	: " +  al);
+		System.out.println("Setelah Hapus	: " +  al);
 		
 		// Iterasi pada ArrayList (cetak setiap elemn)
 		System.out.print("Iterasi		: ");
