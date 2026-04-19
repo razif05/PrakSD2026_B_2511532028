@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class DaftarKata_2511532028 {
 	private final ArrayList<String> data;
+	
 	// Konstruktor : inisialisasi list kosong
 	public DaftarKata_2511532028() {
 		this.data = new ArrayList<>();
