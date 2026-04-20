@@ -4,6 +4,7 @@ public class stackArray_2511532028 {
 	static final int max = 1000;
 	int top;
 	int a[] = new int[max];
+	
 	boolean isEmpty_2511532028()
 	{
 		return (top < 0);
