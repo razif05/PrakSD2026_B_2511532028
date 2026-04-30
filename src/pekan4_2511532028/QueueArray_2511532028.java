@@ -21,7 +21,7 @@ public class QueueArray_2511532028 {
 	}
 	
 	void enqueue_2028(int item_2028) {
-		if (isFull(this)) {
+		if(isFull(this)) {
 			return;
 		}
 		this.rear_2028 = (this.rear_2028 + 1) % this.capacity_2028;
