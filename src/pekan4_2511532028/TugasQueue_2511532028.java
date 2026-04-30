@@ -35,6 +35,7 @@ public class TugasQueue_2511532028 {
 	
 	public void enqueue_2028(Scanner i) {
 		if(isFull(this)) {
+			System.out.println("Antrian Penuh");
 			return;
 		}
 		this.rear_2028 = (this.rear_2028 + 1) % this.kapasitas_2028;	
@@ -47,7 +48,7 @@ public class TugasQueue_2511532028 {
 	
 	public String dequeue_2028() {
 		if(isEmpty(this)) {
-			System.out.println("tidak ada antrian");
+			System.out.println("Antrian Kosong");
 			return null;
 		}
 		String pelanggan_2028 = this.antri_2028[this.front_2028];

@@ -6,7 +6,7 @@ public class AntrianLoket_2511532028 {
 
 	public static void main(String[] args) {
 		Scanner z = new Scanner(System.in);
-		TugasQueue_2511532028 q_2028 = new TugasQueue_2511532028(3);
+		TugasQueue_2511532028 q_2028 = new TugasQueue_2511532028(5);
 		int pilihan_2028;
 		do {
 			q_2028.MenuAntri_2028();
