@@ -45,7 +45,7 @@ public class MahasiswaDriver_2511532028 {
 	public static void hapusMahasiswa_2511532028(ArrayList<Mahasiswa_2511532028> list, Scanner sc) {
 		System.out.print("Masukkan NIM yang akan di hapus : ");
 		String nimHapus = sc.nextLine();
-		boolean removed = list.removeIf(mhs -> mhs.nim.equals(nimHapus));
+		boolean removed = list.removeIf(mhs -> mhs.nim_2028.equals(nimHapus));
 		
 		if (removed) {
 			System.out.println("Data dengan NIM " + nimHapus + " berhasil dihapus.");
@@ -61,7 +61,7 @@ public class MahasiswaDriver_2511532028 {
 		boolean ditemukan = false;
 		
 		for (Mahasiswa_2511532028 mhs : list ) {
-			if ( mhs.nim.equals(nimCari)) {
+			if ( mhs.nim_2028.equals(nimCari)) {
 				System.out.println("Hasil Pencarian  : " + mhs);
 				ditemukan = true;
 				break;
